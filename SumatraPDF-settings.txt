@@ -3,7 +3,7 @@
 CheckForUpdates = true
 CustomScreenDPI = 0
 DefaultDisplayMode = continuous facing
-DefaultZoom = 107
+DefaultZoom = fit page
 EnableTeXEnhancements = true
 EscToExit = false
 FullPathInTitle = false
@@ -62,12 +62,12 @@ Annotations [
 	UnderlineColor = #00ff00
 	SquigglyColor = #ff00ff
 	StrikeOutColor = #ff0000
-	FreeTextColor = 
+	FreeTextColor =
 	FreeTextSize = 12
 	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
-	TextIconType = 
-	DefaultAuthor = 
+	TextIconType =
+	DefaultAuthor =
 ]
 
 ExternalViewers [
@@ -93,21 +93,142 @@ SelectionHandlers [
 ]
 
 Shortcuts [
+	# Basic Vim navigation (hjkl already present)
+	[
+		Cmd = CmdScrollLeft
+		Key = h
+	]
+	[
+		Cmd = CmdScrollDown
+		Key = j
+	]
+	[
+		Cmd = CmdScrollUp
+		Key = k
+	]
+	[
+		Cmd = CmdScrollRight
+		Key = l
+	]
+
+	# Vim-style page navigation
+	[
+		Cmd = CmdGoToFirstPage
+		Key = g g
+	]
+	[
+		Cmd = CmdGoToLastPage
+		Key = G
+	]
+	[
+		Cmd = CmdGoToNextPage
+		Key = space
+	]
+	[
+		Cmd = CmdGoToPrevPage
+		Key = b
+	]
+	[
+		Cmd = CmdGoToNextPage
+		Key = Ctrl+f
+	]
+	[
+		Cmd = CmdGoToPrevPage
+		Key = Ctrl+b
+	]
+
+	# Search navigation
+	[
+		Cmd = CmdFindFirst
+		Key = /
+	]
+
+	# Zoom controls
+	[
+		Cmd = CmdZoomFitPage
+		Key = z p
+	]
+	[
+		Cmd = CmdZoomFitWidth
+		Key = z w
+	]
+	[
+		Cmd = CmdZoomFitContent
+		Key = z f
+	]
+	[
+		Cmd = CmdZoomIn
+		Key = +
+	]
+	[
+		Cmd = CmdZoomOut
+		Key = -
+	]
+	[
+		Cmd = CmdZoom100
+		Key = z z
+	]
+	[
+		Cmd = CmdZoom200
+		Key = x
+	]
+	[
+		Cmd = CmdZoom125
+		Key = c
+	]
+
+	# Document manipulation
+	[
+		Cmd = CmdSaveAs
+		Key = w
+	]
+	[
+		Cmd = CmdClose
+		Key = q
+	]
+	[
+		Cmd = CmdOpenSelectedDocument
+		Key = o
+	]
+
+	# Rotate document
+	[
+		Cmd = CmdRotateRight
+		Key = r
+	]
+	[
+		Cmd = CmdRotateLeft
+		Key = R
+	]
+
+	# Presentation mode
+	[
+		Cmd = CmdToggleFullScreen
+		Key = f
+	]
+
+	# Visual selection (annotations)
+	[
+		Cmd = CmdSelectMode
+		Key = v
+	]
+
+	# Additional commands from original file
 	[
 		Cmd = CmdTranslateSelectionWithDeepL
-		Key = alt+f
+		Key = alt+t
 	]
 	[
 		Cmd = CmdSearchSelectionWithGoogle
-		Key = ctrl+alt+f
+		Key = alt+g
 	]
 	[
 		Cmd = CmdOpenWithExplorer
-		Key = alt+d
+		Key = alt+e
 	]
 	[
 		Cmd = CmdDeleteAnnotation
-		Key = d
+		Key = d d
 	]
 	[
 		Cmd = CmdCommandPalette
@@ -122,32 +243,8 @@ Shortcuts [
 		Key = s
 	]
 	[
-		Cmd = CmdZoom200
-		Key = x
-	]
-	[
-		Cmd = CmdZoom125
-		Key = c
-	]
-	[
 		Cmd = SetBackgroundColor
 		Key = i
-	]
-	[
-		Cmd = CmdScrollUp
-		Key = k
-	]
-	[
-		Cmd = CmdScrollDown
-		Key = j
-	]
-	[
-		Cmd = CmdScrollRight
-		Key = l
-	]
-	[
-		Cmd = CmdScrollLeft
-		Key = h
 	]
 ]
 
@@ -156,7 +253,7 @@ Themes [
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 3
+WindowState = 2
 WindowPos = 434 199 974 1080
 FileStates [
 	[
@@ -193,3 +290,4 @@ OpenCountWeek = 740
 
 # Settings below are not recognized by the current version
 TreeFontWeightOffset = 0
+
