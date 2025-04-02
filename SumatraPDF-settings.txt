@@ -6,16 +6,16 @@ DefaultDisplayMode = continuous facing
 DefaultZoom = fit page
 EnableTeXEnhancements = true
 EscToExit = false
-FullPathInTitle = false
+FullPathInTitle = true
 InverseSearchCmdLine = "C:\Users\ahm_e\AppData\Local\Programs\Microsoft VS Code\Code.exe" "C:\Users\ahm_e\AppData\Local\Programs\Microsoft VS Code\resources\app\out\cli.js" --ms-enable-electron-run-as-node -r -g "%f:%l"
 LazyLoading = true
-MainWindowBackground = #80fff200
+MainWindowBackground = #202020
 NoHomeTab = true
 ReloadModifiedDocuments = true
-RememberOpenedFiles = false
+RememberOpenedFiles = true
 RememberStatePerDocument = true
 RestoreSession = true
-ReuseInstance = false
+ReuseInstance = true
 ShowMenubar = false
 ShowToolbar = false
 ShowFavorites = false
@@ -25,7 +25,7 @@ ShowStartPage = false
 SidebarDx = 221
 SmoothScroll = true
 TabWidth = 300
-Theme = Darker
+Theme = Dark
 TocDy = 0
 ToolbarSize = 18
 TreeFontName = automatic
@@ -40,8 +40,8 @@ FixedPageUI [
 	TextColor = #000000
 	BackgroundColor = #f5f5dc
 	SelectionColor = #f5fc0c
-	WindowMargin = 0 0 0 0
-	PageSpacing = 0 0
+	WindowMargin = 2 2 2 2
+	PageSpacing = 4 4
 	GradientColors = #000000
 	InvertColors = false
 	HideScrollbars = true
@@ -49,12 +49,12 @@ FixedPageUI [
 
 ComicBookUI [
 	WindowMargin = 0 0 0 0
-	PageSpacing = 0 0
+	PageSpacing = 4 4
 	CbxMangaMode = false
 ]
 
 ChmUI [
-	UseFixedPageUI = false
+	UseFixedPageUI = true
 ]
 
 Annotations [
@@ -62,12 +62,12 @@ Annotations [
 	UnderlineColor = #00ff00
 	SquigglyColor = #ff00ff
 	StrikeOutColor = #ff0000
-	FreeTextColor = 
+	FreeTextColor = #ffffff
 	FreeTextSize = 12
 	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
-	TextIconType = 
-	DefaultAuthor = 
+	TextIconType =
+	DefaultAuthor =
 ]
 
 ExternalViewers [
@@ -110,6 +110,14 @@ Shortcuts [
 		Key = l
 	]
 	[
+		Cmd = CmdScrollDownHalfPage
+		Key = Ctrl+d
+	]
+	[
+		Cmd = CmdScrollUpHalfPage
+		Key = Ctrl+u
+	]
+	[
 		Cmd = CmdGoToFirstPage
 		Key = g g
 	]
@@ -134,8 +142,20 @@ Shortcuts [
 		Key = Ctrl+b
 	]
 	[
+		Cmd = CmdGoToPage
+		Key = Ctrl+g
+	]
+	[
 		Cmd = CmdFindFirst
 		Key = /
+	]
+	[
+		Cmd = CmdFindNext
+		Key = n
+	]
+	[
+		Cmd = CmdFindPrev
+		Key = N
 	]
 	[
 		Cmd = CmdZoomFitPage
@@ -182,6 +202,10 @@ Shortcuts [
 		Key = o
 	]
 	[
+		Cmd = CmdOpenFolder
+		Key = Ctrl+o
+	]
+	[
 		Cmd = CmdRotateRight
 		Key = r
 	]
@@ -192,6 +216,14 @@ Shortcuts [
 	[
 		Cmd = CmdToggleFullScreen
 		Key = f
+	]
+	[
+		Cmd = CmdTogglePresentationMode
+		Key = F11
+	]
+	[
+		Cmd = CmdToggleTableOfContents
+		Key = F9
 	]
 	[
 		Cmd = CmdSelectMode
@@ -226,50 +258,104 @@ Shortcuts [
 		Key = s
 	]
 	[
+		Cmd = CmdToggleBookmarks
+		Key = Ctrl+b
+	]
+	[
+		Cmd = CmdAddBookmark
+		Key = Ctrl+d
+	]
+	[
+		Cmd = CmdCopySelection
+		Key = Ctrl+c
+	]
+	[
+		Cmd = CmdCopyLinkTarget
+		Key = Ctrl+Alt+c
+	]
+	[
+		Cmd = CmdSelectAll
+		Key = Ctrl+a
+	]
+	[
+		Cmd = CmdSearchWeb
+		Key = Ctrl+e
+	]
+	[
+		Cmd = CmdGoBack
+		Key = Alt+Left
+	]
+	[
+		Cmd = CmdGoForward
+		Key = Alt+Right
+	]
+	[
+		Cmd = CmdRenameFile
+		Key = F2
+	]
+	[
 		Cmd = SetBackgroundColor
 		Key = i
 	]
 ]
 
 Themes [
+	[
+		Name = Dark
+		TextColor =
+		BackgroundColor =
+		ControlBackgroundColor =
+		LinkColor =
+		ColorizeControls = false
+	]
 ]
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 3
+WindowState = 2
 WindowPos = 720 -35 974 1080
 FileStates [
 	[
-		FilePath = C:\Users\ahm_e\Zotero\storage\732I9I5L\THYRISTOR-BASED FACTS CONTROLLERS FOR ELECTRICAL TRANSMISSION SYSTEMS.pdf
+		FilePath = d:\Project_ETAP\06.WTIIRA\IN\SLD_2.pdf
 		Favorites [
-			[
-				Name = chapter
-				PageNo = 55
-			]
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
-	]
-	[
-		FilePath = C:\Users\ahm_e\Downloads\.pdf
-		Favorites [
-			[
-				Name = IEEE13
-				PageNo = 59
-			]
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = true
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 720 -35 974 1080
+		ShowToc = true
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = d:\Project_ETAP\06.WTIIRA\IN\SLD_2.pdf
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -1
+				ShowToc = true
+			]
+		]
+		TabIndex = 1
+		WindowState = 2
+		WindowPos = 720 -35 974 1080
+		SidebarDx = 221
+	]
 ]
-TimeOfLastUpdateCheck = 31171304 -1015903764
+TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 743
 
 # Settings below are not recognized by the current version
-TreeFontWeightOffset = 0
