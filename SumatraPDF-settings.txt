@@ -40,8 +40,8 @@ FixedPageUI [
 	TextColor = #000000
 	BackgroundColor = #f5f5dc
 	SelectionColor = #f5fc0c
-	WindowMargin = 2 2 2 2
-	PageSpacing = 4 4
+	WindowMargin = 0 0 0 0
+	PageSpacing = 0 0
 	GradientColors = #000000
 	InvertColors = false
 	HideScrollbars = true
@@ -49,7 +49,7 @@ FixedPageUI [
 
 ComicBookUI [
 	WindowMargin = 0 0 0 0
-	PageSpacing = 4 4
+	PageSpacing = 0 0
 	CbxMangaMode = false
 ]
 
@@ -344,37 +344,31 @@ Themes [
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 2
+WindowState = 3
 WindowPos = 720 -35 974 1080
 FileStates [
+	[
+		FilePath = D:\Zotero\storage\6WJF584M\Bose - 2002 - Modern power electronics and AC drives.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 779.241
+		PageNo = 616
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 720 -35 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 ]
 SessionData [
-	[
-		TabStates [
-			[
-				FilePath = C:\Users\ahm_e\Desktop\ابحاث مادة الذكاء(ا.د عبدالسلام)\أحمد محمود ابواليزيد ابوشادي\Power System\Advanced Fuzzy MPPT Controller for a stand-alone PV system.pdf
-				DisplayMode = continuous facing
-				PageNo = 1
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = -1 35.3498
-				ShowToc = false
-			]
-			[
-				FilePath = C:\Users\ahm_e\Desktop\ابحاث مادة الذكاء(ا.د عبدالسلام)\عبد الرزاق عبد القادر جعشي\Abdirisak abdulkadir gacshe\Fuzzy logic controller in DC motor.pdf
-				DisplayMode = facing
-				PageNo = 9
-				Zoom = fit content
-				Rotation = 0
-				ScrollPos = 59.6069 91.4819
-				ShowToc = false
-			]
-		]
-		TabIndex = 2
-		WindowState = 2
-		WindowPos = 720 -35 974 1080
-		SidebarDx = 221
-	]
 ]
 TimeOfLastUpdateCheck = 0 0
 OpenCountWeek = 743
