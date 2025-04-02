@@ -20,7 +20,7 @@ ShowMenubar = false
 ShowToolbar = false
 ShowFavorites = false
 ShowToc = false
-ShowLinks = false
+ShowLinks = true
 ShowStartPage = false
 SidebarDx = 221
 SmoothScroll = true
@@ -66,8 +66,8 @@ Annotations [
 	FreeTextSize = 12
 	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
-	TextIconType =
-	DefaultAuthor =
+	TextIconType = 
+	DefaultAuthor = 
 ]
 
 ExternalViewers [
@@ -98,11 +98,11 @@ Shortcuts [
 		Key = h
 	]
 	[
-		Cmd = CmdScrollDown
+		Cmd = CmdScrollDown 3
 		Key = j
 	]
 	[
-		Cmd = CmdScrollUp
+		Cmd = CmdScrollUp 3
 		Key = k
 	]
 	[
@@ -126,19 +126,19 @@ Shortcuts [
 		Key = G
 	]
 	[
-		Cmd = CmdGoToNextPage
-		Key = space
+		Cmd = CmdGoToNextPage 1
+		Key = n
 	]
 	[
-		Cmd = CmdGoToPrevPage
-		Key = b
+		Cmd = CmdGoToPrevPage 1
+		Key = p
 	]
 	[
-		Cmd = CmdGoToNextPage
+		Cmd = CmdGoToNextPage 1
 		Key = Ctrl+f
 	]
 	[
-		Cmd = CmdGoToPrevPage
+		Cmd = CmdGoToPrevPage 1
 		Key = Ctrl+b
 	]
 	[
@@ -150,24 +150,28 @@ Shortcuts [
 		Key = /
 	]
 	[
-		Cmd = CmdFindNext
-		Key = n
-	]
-	[
-		Cmd = CmdFindPrev
-		Key = N
-	]
-	[
-		Cmd = CmdZoomFitPage
+		Cmd = CmdZoomCustom fit page
 		Key = z p
 	]
 	[
-		Cmd = CmdZoomFitWidth
+		Cmd = CmdZoomCustom fit width
 		Key = z w
 	]
 	[
-		Cmd = CmdZoomFitContent
+		Cmd = CmdZoomCustom fit content
 		Key = z f
+	]
+	[
+		Cmd = CmdZoomCustom 100%
+		Key = z z
+	]
+	[
+		Cmd = CmdZoomCustom 200%
+		Key = z 2
+	]
+	[
+		Cmd = CmdZoomCustom 125%
+		Key = z 1
 	]
 	[
 		Cmd = CmdZoomIn
@@ -176,18 +180,6 @@ Shortcuts [
 	[
 		Cmd = CmdZoomOut
 		Key = -
-	]
-	[
-		Cmd = CmdZoom100
-		Key = z z
-	]
-	[
-		Cmd = CmdZoom200
-		Key = x
-	]
-	[
-		Cmd = CmdZoom125
-		Key = c
 	]
 	[
 		Cmd = CmdSaveAs
@@ -202,7 +194,7 @@ Shortcuts [
 		Key = o
 	]
 	[
-		Cmd = CmdOpenFolder
+		Cmd = CmdOpenFile
 		Key = Ctrl+o
 	]
 	[
@@ -214,7 +206,7 @@ Shortcuts [
 		Key = R
 	]
 	[
-		Cmd = CmdToggleFullScreen
+		Cmd = CmdToggleFullscreen
 		Key = f
 	]
 	[
@@ -226,28 +218,28 @@ Shortcuts [
 		Key = F9
 	]
 	[
-		Cmd = CmdSelectMode
-		Key = v
+		Cmd = CmdCommandPalette >
+		Key = Ctrl+k
 	]
 	[
-		Cmd = CmdTranslateSelectionWithDeepL
-		Key = alt+t
+		Cmd = CmdCommandPalette @
+		Key = Ctrl+t
 	]
 	[
-		Cmd = CmdSearchSelectionWithGoogle
-		Key = alt+g
+		Cmd = CmdCommandPalette #
+		Key = Ctrl+h
 	]
 	[
-		Cmd = CmdOpenWithExplorer
-		Key = alt+e
+		Cmd = CmdCreateAnnotHighlight #ffff00 copytoclipboard
+		Key = a
 	]
 	[
-		Cmd = CmdDeleteAnnotation
-		Key = d d
+		Cmd = CmdCreateAnnotHighlight #00ff00 openedit
+		Key = Shift+a
 	]
 	[
-		Cmd = CmdCommandPalette
-		Key = Ctrl+Shift+p
+		Cmd = CmdCreateAnnotUnderline #00ff00 copytoclipboard
+		Key = u
 	]
 	[
 		Cmd = CmdEditAnnotations
@@ -258,12 +250,52 @@ Shortcuts [
 		Key = s
 	]
 	[
+		Cmd = CmdDeleteAnnotation
+		Key = d d
+	]
+	[
 		Cmd = CmdToggleBookmarks
 		Key = Ctrl+b
 	]
 	[
-		Cmd = CmdAddBookmark
+		Cmd = CmdFavoriteAdd
 		Key = Ctrl+d
+	]
+	[
+		Cmd = CmdInvertColors
+		Key = i
+	]
+	[
+		Cmd = CmdShowInFolder
+		Key = Ctrl+e
+	]
+	[
+		Cmd = CmdSelectMode
+		Key = v
+	]
+	[
+		Cmd = CmdCopySelection
+		Key = y
+	]
+	[
+		Cmd = CmdSelectAll
+		Key = Ctrl+a
+	]
+	[
+		Cmd = CmdNextTab
+		Key = gt
+	]
+	[
+		Cmd = CmdPrevTab
+		Key = gT
+	]
+	[
+		Cmd = CmdSearchSelectionWithGoogle
+		Key = g s
+	]
+	[
+		Cmd = CmdTranslateSelectionWithDeepL
+		Key = t d
 	]
 	[
 		Cmd = CmdCopySelection
@@ -274,19 +306,15 @@ Shortcuts [
 		Key = Ctrl+Alt+c
 	]
 	[
-		Cmd = CmdSelectAll
-		Key = Ctrl+a
-	]
-	[
 		Cmd = CmdSearchWeb
 		Key = Ctrl+e
 	]
 	[
-		Cmd = CmdGoBack
+		Cmd = CmdNavigateBack
 		Key = Alt+Left
 	]
 	[
-		Cmd = CmdGoForward
+		Cmd = CmdNavigateForward
 		Key = Alt+Right
 	]
 	[
@@ -294,18 +322,22 @@ Shortcuts [
 		Key = F2
 	]
 	[
-		Cmd = SetBackgroundColor
-		Key = i
+		Cmd = CmdToggleLinks
+		Key = Ctrl+l
+	]
+	[
+		Cmd = CmdToggleContinuousView
+		Key = c
 	]
 ]
 
 Themes [
 	[
 		Name = Dark
-		TextColor =
-		BackgroundColor =
-		ControlBackgroundColor =
-		LinkColor =
+		TextColor = 
+		BackgroundColor = 
+		ControlBackgroundColor = 
+		LinkColor = 
 		ColorizeControls = false
 	]
 ]
@@ -315,41 +347,30 @@ UiLanguage = en
 WindowState = 2
 WindowPos = 720 -35 974 1080
 FileStates [
-	[
-		FilePath = d:\Project_ETAP\06.WTIIRA\IN\SLD_2.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 -1
-		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 720 -35 974 1080
-		ShowToc = true
-		SidebarDx = 221
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
 ]
 SessionData [
 	[
 		TabStates [
 			[
-				FilePath = d:\Project_ETAP\06.WTIIRA\IN\SLD_2.pdf
+				FilePath = C:\Users\ahm_e\Desktop\ابحاث مادة الذكاء(ا.د عبدالسلام)\أحمد محمود ابواليزيد ابوشادي\Power System\Advanced Fuzzy MPPT Controller for a stand-alone PV system.pdf
 				DisplayMode = continuous facing
 				PageNo = 1
-				Zoom = fit page
+				Zoom = fit content
 				Rotation = 0
-				ScrollPos = -1 -1
-				ShowToc = true
+				ScrollPos = -1 35.3498
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\Desktop\ابحاث مادة الذكاء(ا.د عبدالسلام)\عبد الرزاق عبد القادر جعشي\Abdirisak abdulkadir gacshe\Fuzzy logic controller in DC motor.pdf
+				DisplayMode = facing
+				PageNo = 9
+				Zoom = fit content
+				Rotation = 0
+				ScrollPos = 59.6069 91.4819
+				ShowToc = false
 			]
 		]
-		TabIndex = 1
+		TabIndex = 2
 		WindowState = 2
 		WindowPos = 720 -35 974 1080
 		SidebarDx = 221
