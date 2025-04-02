@@ -1,0 +1,26 @@
+# SumatraPDF binary files
+SumatraPDF.exe
+libmupdf.dll
+PdfFilter.dll
+PdfPreview.dll
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+
+# User-specific files
+sumatrapdfcache/
+SumatraPDF-user.txt
+
+# VS Code files (keep only settings.json)
+.vscode/*
+!.vscode/settings.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
