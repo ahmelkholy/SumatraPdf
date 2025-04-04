@@ -20,7 +20,7 @@ ShowMenubar = false
 ShowToolbar = false
 ShowFavorites = false
 ShowToc = false
-ShowLinks = true
+ShowLinks = false
 ShowStartPage = false
 SidebarDx = 221
 SmoothScroll = true
@@ -66,8 +66,8 @@ Annotations [
 	FreeTextSize = 12
 	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
-	TextIconType = 
-	DefaultAuthor = 
+	TextIconType =
+	DefaultAuthor =
 ]
 
 ExternalViewers [
@@ -334,10 +334,10 @@ Shortcuts [
 Themes [
 	[
 		Name = Dark
-		TextColor = 
-		BackgroundColor = 
-		ControlBackgroundColor = 
-		LinkColor = 
+		TextColor =
+		BackgroundColor =
+		ControlBackgroundColor =
+		LinkColor =
 		ColorizeControls = false
 	]
 ]
@@ -345,15 +345,215 @@ Themes [
 # You're not expected to change those manually
 UiLanguage = en
 WindowState = 3
-WindowPos = 720 -35 974 1080
+WindowPos = 485 95 974 1080
 FileStates [
+	[
+		FilePath = D:\Zotero\storage\26JN6N9S\main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-178824\1- Schedule _MPEI Venue - Russia-V0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.388998
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\Nutritional status assessment _ a manual for population[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.276033 -0.276033
+		PageNo = 115
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\PROJECTs\EV_charging\Tex\MainArticle\MainP1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 14
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 -0.365933
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\PROJECTs\EV_charging\Archive\EPSR\MainP1.1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 7
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\Nutritional status assessment _ a manual for population.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.329824
+		PageNo = 13
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\PROJECTs\EV_charging\Graph\Tikz\IntegrationFramework.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 0.701791 -1
+		PageNo = 1
+		Zoom = 160.411
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 699 -30 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\PROJECT-PHD-Thesis\notes\Thesis topic.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1445 -251 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = E:\Print\03.04.25\Тема диссертации Элькхоли.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398254
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 720 -35 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\1- Schedule _MPEI Venue - Russia-V0.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398216
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 720 -35 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = D:\Zotero\storage\6WJF584M\Bose - 2002 - Modern power electronics and AC drives.pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous book view
 		ScrollPos = -1 779.241
@@ -369,8 +569,43 @@ FileStates [
 	]
 ]
 SessionData [
+	[
+		TabStates [
+			[
+				FilePath = d:\PROJECTs\EV_charging\Archive\EPSR\MainP1.1.pdf
+				DisplayMode = automatic
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = 0 0
+				ShowToc = false
+			]
+			[
+				FilePath = d:\PROJECTs\EV_charging\Tex\MainArticle\MainP1.pdf
+				DisplayMode = continuous book view
+				PageNo = 8
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -0.365933
+				ShowToc = false
+			]
+			[
+				FilePath = D:\Zotero\storage\26JN6N9S\main.pdf
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -0.366719
+				ShowToc = false
+			]
+		]
+		TabIndex = 3
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		SidebarDx = 221
+	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 743
+OpenCountWeek = 744
 
 # Settings below are not recognized by the current version
