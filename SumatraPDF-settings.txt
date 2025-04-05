@@ -25,7 +25,7 @@ ShowStartPage = false
 SidebarDx = 221
 SmoothScroll = true
 TabWidth = 300
-Theme = Dark
+Theme = Darker
 TocDy = 0
 ToolbarSize = 18
 TreeFontName = automatic
@@ -126,7 +126,7 @@ Shortcuts [
 		Key = p
 	]
 	[
-		Cmd = CmdGoToNextPage 1
+		Cmd = CmdFindFirst
 		Key = Ctrl+f
 	]
 	[
@@ -158,7 +158,7 @@ Shortcuts [
 		Key = q
 	]
 	[
-		Cmd = CmdOpenSelectedDocument
+		Cmd = CmdShowInFolder
 		Key = o
 	]
 	[
@@ -312,7 +312,7 @@ Themes [
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 2
+WindowState = 3
 WindowPos = 485 95 974 1080
 FileStates [
 	[
@@ -321,14 +321,14 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 4
 		UseDefaultState = false
 		DisplayMode = continuous book view
-		ScrollPos = -1 767.603
-		PageNo = 8
+		ScrollPos = -1 -0.365933
+		PageNo = 42
 		Zoom = fit page
 		Rotation = 0
-		WindowState = 2
+		WindowState = 3
 		WindowPos = 485 95 974 1080
 		ShowToc = false
 		SidebarDx = 221
@@ -341,12 +341,32 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 16
+		OpenCount = 17
 		UseDefaultState = false
 		DisplayMode = continuous facing
-		ScrollPos = 1.04531 740.412
+		ScrollPos = -1 144.071
 		PageNo = 1
-		Zoom = 179.444
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\LYR6PBBF\Luo et al. - 2019 - Joint planning of distributed generation and electric vehicle charging stations considering real-tim.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 228.331
+		PageNo = 1
+		Zoom = fit page
 		Rotation = 0
 		WindowState = 2
 		WindowPos = 485 95 974 1080
@@ -365,26 +385,6 @@ FileStates [
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.351262
-		PageNo = 3
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 485 95 974 1080
-		ShowToc = false
-		SidebarDx = 221
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = D:\Zotero\storage\LYR6PBBF\Luo et al. - 2019 - Joint planning of distributed generation and electric vehicle charging stations considering real-tim.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 6
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 -0.375409
 		PageNo = 1
 		Zoom = fit page
 		Rotation = 0
@@ -940,44 +940,17 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = D:\Zotero\storage\LYR6PBBF\Luo et al. - 2019 - Joint planning of distributed generation and electric vehicle charging stations considering real-tim.pdf
-				DisplayMode = automatic
-				PageNo = 1
-				Zoom = fit page
-				Rotation = 0
-				ScrollPos = 0 0
-				ShowToc = false
-			]
-			[
 				FilePath = d:\PROJECTs\EV_charging\Tex\MainArticle\MainP1.pdf
 				DisplayMode = continuous book view
-				PageNo = 8
+				PageNo = 42
 				Zoom = fit page
 				Rotation = 0
-				ScrollPos = -1 767.603
-				ShowToc = false
-			]
-			[
-				FilePath = D:\Zotero\storage\VQFCQ4VZ\Wang et al. - 2021 - An electric-vehicle corridor model in a dense city with applications to charging location and traffi.pdf
-				DisplayMode = automatic
-				PageNo = 1
-				Zoom = fit page
-				Rotation = 0
-				ScrollPos = 0 0
-				ShowToc = false
-			]
-			[
-				FilePath = D:\Zotero\storage\E6N9HFB9\Hammam et al. - 2024 - Optimal design of sizing and allocations for highway electric vehicle charging stations based on a P.pdf
-				DisplayMode = automatic
-				PageNo = 1
-				Zoom = fit page
-				Rotation = 0
-				ScrollPos = 0 0
+				ScrollPos = -1 -0.365933
 				ShowToc = false
 			]
 		]
-		TabIndex = 2
-		WindowState = 2
+		TabIndex = 1
+		WindowState = 3
 		WindowPos = 485 95 974 1080
 		SidebarDx = 221
 	]
