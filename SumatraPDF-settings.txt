@@ -94,20 +94,12 @@ SelectionHandlers [
 
 Shortcuts [
 	[
-		Cmd = CmdScrollLeft
-		Key = h
-	]
-	[
 		Cmd = CmdScrollDown 3
 		Key = j
 	]
 	[
 		Cmd = CmdScrollUp 3
 		Key = k
-	]
-	[
-		Cmd = CmdScrollRight
-		Key = l
 	]
 	[
 		Cmd = CmdScrollDownHalfPage
@@ -119,7 +111,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdGoToFirstPage
-		Key = g g
+		Key = g
 	]
 	[
 		Cmd = CmdGoToLastPage
@@ -148,30 +140,6 @@ Shortcuts [
 	[
 		Cmd = CmdFindFirst
 		Key = /
-	]
-	[
-		Cmd = CmdZoomCustom fit page
-		Key = z p
-	]
-	[
-		Cmd = CmdZoomCustom fit width
-		Key = z w
-	]
-	[
-		Cmd = CmdZoomCustom fit content
-		Key = z f
-	]
-	[
-		Cmd = CmdZoomCustom 100%
-		Key = z z
-	]
-	[
-		Cmd = CmdZoomCustom 200%
-		Key = z 2
-	]
-	[
-		Cmd = CmdZoomCustom 125%
-		Key = z 1
 	]
 	[
 		Cmd = CmdZoomIn
@@ -251,7 +219,7 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdDeleteAnnotation
-		Key = d d
+		Key = d
 	]
 	[
 		Cmd = CmdToggleBookmarks
@@ -283,11 +251,11 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdNextTab
-		Key = gt
+		Key = l
 	]
 	[
 		Cmd = CmdPrevTab
-		Key = gT
+		Key = h
 	]
 	[
 		Cmd = CmdSearchSelectionWithGoogle
@@ -344,9 +312,449 @@ Themes [
 
 # You're not expected to change those manually
 UiLanguage = en
-WindowState = 3
+WindowState = 2
 WindowPos = 485 95 974 1080
 FileStates [
+	[
+		FilePath = d:\PROJECTs\EV_charging\Tex\MainArticle\MainP1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 767.603
+		PageNo = 8
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\E6N9HFB9\Hammam et al. - 2024 - Optimal design of sizing and allocations for highway electric vehicle charging stations based on a P.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 16
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 1.04531 740.412
+		PageNo = 1
+		Zoom = 179.444
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\VQFCQ4VZ\Wang et al. - 2021 - An electric-vehicle corridor model in a dense city with applications to charging location and traffi.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.351262
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\LYR6PBBF\Luo et al. - 2019 - Joint planning of distributed generation and electric vehicle charging stations considering real-tim.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.375409
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\RD3NNUEH\Wang et al. - 2018 - Siting and sizing of fast charging stations in highway network with budget constraint.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.375409
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\6Y7QTGK2\Ali et al. - 2024 - Optimal allocation of autonomous PV-powered fast charging stations for electrified transportation co.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 12
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.375409
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\FPVDLMZP\Zhou et al. - 2025 - Optimal self-consumption scheduling of highway electric vehicle charging station based on multi-agen.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 -0.375409
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\RPYLI2S5\main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 4
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.351276
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\UXFN2K9T\liu2021.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\EJ87EKYE\sustainability-11-01973.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 6
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\72B85LXW\Electric Vehicle Charger Placement Optimization in Michigan Phase I – Highways.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 3
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\PROJECTs\EV_charging\Archive\EPSR\MainP1.1.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.365933
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\SL3LWJDV\Napoli et al. - 2020 - Optimal allocation of electric vehicle charging stations in a highway network Part 1. Methodology a.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\RYBAMEYQ\Kumar and Aneesa Farhan - 2024 - Optimal Simultaneous Allocation of Electric Vehicle Charging Stations and Capacitors in Radial Distr.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.365933
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\KPHUPVCF\Algafri et al. - 2024 - Smart City Charging Station allocation for electric vehicles using analytic hierarchy process and mu.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 15
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\RY9C28WH\main.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\3I5444GZ\Özcelik et al. - 2024 - Sustainable charger location and capacity strategies supporting green transformation process at gas.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 15
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\ZUY8ZEEW\Stamadianos et al. - 2024 - Meeting the charging demand of Electric Vehicles in Greece Enabling intercity trips.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\QRJB64FY\Kavianipour et al. - 2021 - Electric vehicle fast charging infrastructure planning in urban networks considering daily travel an.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.343144
+		PageNo = 19
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\IIDEZ5DU\Li and Xie - 2024 - Identifying and minimizing critical driving range thresholds for electric vehicles in intercity netw.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 17
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\STEZQQA9\Cong Quoc Tran et al. - 2023 - Towards clean transportation systems Infrastructure planning for EVs charging while driving.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.366719
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\I5EHUIMI\He et al. - 2018 - An optimal charging station location model with the consideration of electric vehicle’s driving rang.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.343144
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 3
+		WindowPos = 485 95 974 1080
+		ShowToc = false
+		SidebarDx = 221
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
 	[
 		FilePath = D:\Zotero\storage\26JN6N9S\main.pdf
 		Favorites [
@@ -357,7 +765,7 @@ FileStates [
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.366719
-		PageNo = 1
+		PageNo = 9
 		Zoom = fit page
 		Rotation = 0
 		WindowState = 3
@@ -399,46 +807,6 @@ FileStates [
 		ScrollPos = -0.276033 -0.276033
 		PageNo = 115
 		Zoom = fit width
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 485 95 974 1080
-		ShowToc = false
-		SidebarDx = 221
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = d:\PROJECTs\EV_charging\Tex\MainArticle\MainP1.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 14
-		UseDefaultState = false
-		DisplayMode = continuous book view
-		ScrollPos = -1 -0.365933
-		PageNo = 8
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 3
-		WindowPos = 485 95 974 1080
-		ShowToc = false
-		SidebarDx = 221
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = d:\PROJECTs\EV_charging\Archive\EPSR\MainP1.1.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 7
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 -0.374605
-		PageNo = 1
-		Zoom = fit page
 		Rotation = 0
 		WindowState = 3
 		WindowPos = 485 95 974 1080
@@ -572,7 +940,7 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = d:\PROJECTs\EV_charging\Archive\EPSR\MainP1.1.pdf
+				FilePath = D:\Zotero\storage\LYR6PBBF\Luo et al. - 2019 - Joint planning of distributed generation and electric vehicle charging stations considering real-tim.pdf
 				DisplayMode = automatic
 				PageNo = 1
 				Zoom = fit page
@@ -586,21 +954,30 @@ SessionData [
 				PageNo = 8
 				Zoom = fit page
 				Rotation = 0
-				ScrollPos = -1 -0.365933
+				ScrollPos = -1 767.603
 				ShowToc = false
 			]
 			[
-				FilePath = D:\Zotero\storage\26JN6N9S\main.pdf
-				DisplayMode = continuous facing
+				FilePath = D:\Zotero\storage\VQFCQ4VZ\Wang et al. - 2021 - An electric-vehicle corridor model in a dense city with applications to charging location and traffi.pdf
+				DisplayMode = automatic
 				PageNo = 1
 				Zoom = fit page
 				Rotation = 0
-				ScrollPos = -1 -0.366719
+				ScrollPos = 0 0
+				ShowToc = false
+			]
+			[
+				FilePath = D:\Zotero\storage\E6N9HFB9\Hammam et al. - 2024 - Optimal design of sizing and allocations for highway electric vehicle charging stations based on a P.pdf
+				DisplayMode = automatic
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = 0 0
 				ShowToc = false
 			]
 		]
-		TabIndex = 3
-		WindowState = 3
+		TabIndex = 2
+		WindowState = 2
 		WindowPos = 485 95 974 1080
 		SidebarDx = 221
 	]
