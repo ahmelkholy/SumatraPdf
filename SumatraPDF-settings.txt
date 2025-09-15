@@ -17,7 +17,7 @@ RememberStatePerDocument = true
 RestoreSession = true
 ReuseInstance = true
 ShowMenubar = false
-ShowToolbar = false
+ShowToolbar = true
 ShowFavorites = false
 ShowToc = false
 ShowLinks = false
@@ -73,8 +73,8 @@ Annotations [
 	FreeTextSize = 12
 	FreeTextBorderWidth = 1
 	TextIconColor = #ffff00
-	TextIconType = 
-	DefaultAuthor = 
+	TextIconType =
+	DefaultAuthor =
 ]
 
 ExternalViewers [
@@ -306,21 +306,21 @@ Shortcuts [
 	]
 	[
 		Cmd = CmdCommandPalette
-		Key = Space
+		Key = tab
 	]
 	[
 		Cmd = CmdCommandPalette @
-		Key = tab
+		Key = Space
 	]
 ]
 
 Themes [
 	[
 		Name = Dark
-		TextColor = 
-		BackgroundColor = 
-		ControlBackgroundColor = 
-		LinkColor = 
+		TextColor =
+		BackgroundColor =
+		ControlBackgroundColor =
+		LinkColor =
 		ColorizeControls = false
 	]
 ]
@@ -328,20 +328,480 @@ Themes [
 # You're not expected to change those manually
 UiLanguage = en
 WindowState = 2
-WindowPos = -967 -267 974 1087
+WindowPos = 610 -22 974 1080
 FileStates [
 	[
-		FilePath = c:\Users\ahm_e\Desktop\temp\template.pdf
+		FilePath = C:\Users\ahm_e\Downloads\SCJCnYewa_079n6 (1).pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
-		ScrollPos = -1 386.632
+		ScrollPos = -1 -0.385569
+		PageNo = 127
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Downloads\SCJCnYewa_079n6_2.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.385569
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRS[2].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.409857
 		PageNo = 1
 		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\IRLF Data sheet[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRLF Data sheet[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRLF Data sheet[2].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRS[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\SAES-P-100[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 5
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\General Single Line Diagram-ADOB-02-200-001-V4[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 352.206 819.224
+		PageNo = 1
+		Zoom = 202.829
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-31496\DA-950214-001.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.787895 349.738
+		PageNo = 1
+		Zoom = 47.5
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-31496\Aramco GI 2_721.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 17
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-31496\DA-950214-033.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 766.581 158.686
+		PageNo = 1
+		Zoom = 47.5
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-31496\10SEC-~1.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398216
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Temp\pid-31496\DOB Power System Studies_ECSD Comments 08212025.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.618822 -0.618822
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\Cable Size Calculation and Voltage Drop Cal[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 44.4926 107.552
+		PageNo = 1
+		Zoom = 107.042
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\TDS-25~1[1].PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.168555 104.883
+		PageNo = 1
+		Zoom = 222.034
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\Project_ETAP\3.DOB\Report\MainReport\MainReport.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 5
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 72.6525 183.4
+		PageNo = 5
+		Zoom = 180.139
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\Project_ETAP\00.Docs_best_Practice\Arch_falsh\BestPractice\SABP-P-051.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 1022.69
+		PageNo = 61
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 610 -22 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Project_ETAP\00.Docs_best_Practice\Arch_falsh\BestPractice\SABP-P-041.PDF
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 15
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1184 -289 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\Project_ETAP\3.DOB\Archive\Modification_2\SAES-P-100-25-27.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1035 -285 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\mahmoud\6.25.6037.001_B2_SHORT CIRCUIT STUDY REPORT_20.05.2025.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 12
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398216
+		PageNo = 19
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1035 -285 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\Project_ETAP\3.DOB\Archive\Modification_2\SAES-P-100-16-19.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1035 -285 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\mahmoud\NDW2 Series Datasheet.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 12
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 79.4122
+		PageNo = 17
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1035 -285 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\mahmoud\etap-tip-012.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 592.508
+		PageNo = 5
+		Zoom = 101.201
 		Rotation = 0
 		WindowState = 2
 		WindowPos = -967 -267 974 1087
@@ -351,20 +811,80 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = d:\Projects_Temp\algerian-gas-turbine-analysis\prue-thesis-template\AfterRefrrat.pdf
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\NDW2 Series Datasheet[1].pdf
 		Favorites [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
-		ScrollPos = -1 -0.398202
+		ScrollPos = -1 40.3051
+		PageNo = 85
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -901 -286 834 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\mahmoud\etap-tip-011.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 10
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 84.3924 86.2783
+		PageNo = 13
+		Zoom = 238.618
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -967 -267 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\mahmoud\NDM5-400V,630V product specifications.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 8
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 328.305 339.525
+		PageNo = 5
+		Zoom = 167.109
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -967 -267 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\BL64F8FB\Elkholi et al. - 2024 - Analysis of the Influence of Symmetrical Devices on the Operating Modes of Distribution Networks.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 9
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
 		PageNo = 1
 		Zoom = fit page
 		Rotation = 0
 		WindowState = 2
-		WindowPos = -967 -267 974 1087
+		WindowPos = -537 -17 1934 547
 		ShowToc = false
 		SidebarDx = 285
 		DisplayR2L = false
@@ -376,10 +896,470 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 11
+		OpenCount = 16
 		UseDefaultState = false
 		DisplayMode = book view
 		ScrollPos = -1 -0.398202
+		PageNo = 72
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -537 -17 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\etap-tip-011[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 36.4102
+		PageNo = 13
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -537 -17 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\PROJECT-PHD-Thesis\Projects\14_ARC_main\Tex\Case_study_zigzag_2element\RusssianEnglishmdMarker\Elkholi et al. - 2024 - Analysis of the Influence of Symmetrical Devices on the Operating Modes of Distribution Networks.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 3
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -537 -17 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\NDM5-400V,630V product specifications[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 828.832
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\NDW2 Series Datasheet[2].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 433.77
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\NDM5-400V,630V product specifications[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 12.3714
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\NDW2 Series Datasheet[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 782.542
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\42466cd3-b92e-46de-be0d-e34743b3a2a3_analysis_results[1].rar.2a3\analysis_results\evaporative_performance_english.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.496163 -1
+		PageNo = 1
+		Zoom = 75.4288
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\58c551e1-aa47-4242-bb66-73bb265a0ef3_analysis_results[1].rar.ef3\analysis_results\evaporative_performance_english.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.557439 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\17d2261b-1f7c-43e8-b3a1-18ea381a169d_analysis_results[1].rar.69d\analysis_results\comparative_analysis_russian.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.580393 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\5402a52c-9f0d-437e-a773-6f002a38f736_analysis_results[1].rar.736\analysis_results\comparative_analysis_english.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.557466 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\48ebe935-7015-4c33-b306-e564885cc0fc_analysis_results[1].rar.0fc\analysis_results\chiller_performance_russian.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.557513 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Windows\Temp\c20e7746-2f56-4cc3-9a49-f823bf4b71a5_analysis_results[1].rar.1a5\analysis_results\chiller_performance_english.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.557513 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\6.25.6037.001_B2_SHORT_CIRCUIT_STUDY_REPORT_20.05.2025[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.437665 -0.437665
+		PageNo = 57
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -7 0 1934 547
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = c:\Users\ahm_e\Desktop\Khamis\2_Online Control Strategy for Radial Vibration Suppression of PMSM by Multiharmonic Current Injection Method\2_Online Control Strategy for Radial Vibration Suppression of PMSM by Multiharmonic Current Injection Method.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.374605
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 504 -20 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\الطرح_الحادي_عشر[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 713.014
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 504 -20 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = true
+		ReparseIdx = 0
+	]
+	[
+		FilePath = D:\Zotero\storage\4FWLLEPV\Elkholy et al. - 2026 - Adaptive genetic algorithms enhance EV charging infrastructure resilience through multi-constraint o.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 22.2553 417.266
+		PageNo = 9
+		Zoom = 510.556
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 504 -20 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Downloads\97B0BFB8818C BDB0 BF80B8B5BC.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.437665 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -1470 -267 974 1080
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Downloads\eb0014.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = 0 0
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 450 -16 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\eb0014[1].pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous book view
+		ScrollPos = -1 -0.398202
+		PageNo = 192
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 450 -16 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = d:\Projects_Temp\algerian-gas-turbine-analysis\prue-thesis-template\AfterRefrrat.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 23
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 450 -16 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Desktop\temp\pesentation.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -0.37425 -0.37425
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -967 -267 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = C:\Users\ahm_e\Downloads\Telegram Desktop\План_кандидатской_диссертации_Иляс (2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 -0.398202
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = -967 -267 974 1087
+		ShowToc = false
+		SidebarDx = 285
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = c:\Users\ahm_e\Desktop\temp\template.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 2
+		UseDefaultState = false
+		DisplayMode = continuous facing
+		ScrollPos = -1 386.632
 		PageNo = 1
 		Zoom = fit page
 		Rotation = 0
@@ -396,7 +1376,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 9
+		OpenCount = 2
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -416,7 +1396,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 13
+		OpenCount = 3
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -436,7 +1416,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398216
@@ -456,7 +1436,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.838639
@@ -476,7 +1456,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -496,7 +1476,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.499 -0.499
@@ -516,7 +1496,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398216
@@ -536,7 +1516,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 574.96
@@ -556,7 +1536,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398254
@@ -576,7 +1556,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398254
@@ -596,7 +1576,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous book view
 		ScrollPos = -1 -0.398202
@@ -616,51 +1596,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.291511
 		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 336 0 974 547
-		ShowToc = false
-		SidebarDx = 285
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = C:\Users\ahm_e\Downloads\97B0BFB8818C BDB0 BF80B8B5BC.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 2
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -0.437665 -1
-		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 336 0 974 547
-		ShowToc = false
-		SidebarDx = 285
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = d:\Project_ETAP\3.DOB\Report\MainReport\MainReport.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 9
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -0.437607 -0.437607
-		PageNo = 5
 		Zoom = fit page
 		Rotation = 0
 		WindowState = 2
@@ -676,7 +1616,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 389.622
@@ -696,7 +1636,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 654.638
@@ -716,7 +1656,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous book view
 		ScrollPos = -1 -0.321734
@@ -736,7 +1676,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 6
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -756,7 +1696,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.437665 -1
@@ -776,7 +1716,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.437665 -1
@@ -796,7 +1736,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.437665 -1
@@ -816,7 +1756,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 97.2178
@@ -836,7 +1776,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 39.4131
@@ -856,7 +1796,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -876,7 +1816,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -896,7 +1836,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -916,7 +1856,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -936,7 +1876,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -956,7 +1896,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 792.119
@@ -976,7 +1916,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.550748 499.427
@@ -996,7 +1936,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -1016,7 +1956,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -1036,7 +1976,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 591.186
@@ -1076,31 +2016,11 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 266.348
 		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 805 354 974 547
-		ShowToc = false
-		SidebarDx = 285
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = D:\Zotero\storage\BL64F8FB\Elkholi et al. - 2024 - Analysis of the Influence of Symmetrical Devices on the Operating Modes of Distribution Networks.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 182.799
-		PageNo = 9
 		Zoom = fit page
 		Rotation = 0
 		WindowState = 2
@@ -1136,7 +2056,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398254
@@ -1156,7 +2076,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = 217.432 505.084
@@ -1196,7 +2116,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 5
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous
 		ScrollPos = -1 -0.398216
@@ -1256,7 +2176,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.374605
@@ -1296,30 +2216,10 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 19.185
-		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = -1432 -317 834 547
-		ShowToc = false
-		SidebarDx = 285
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
-		FilePath = D:\Zotero\storage\4FWLLEPV\Elkholy et al. - 2026 - Adaptive genetic algorithms enhance EV charging infrastructure resilience through multi-constraint o.pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
 		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
-		ScrollPos = -1 -0.375409
+		ScrollPos = -1 19.185
 		PageNo = 1
 		Zoom = fit page
 		Rotation = 0
@@ -1396,7 +2296,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.267321 -0.267321
@@ -1416,7 +2316,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -1436,7 +2336,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.367701 -0.367701
@@ -1456,7 +2356,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 322.005
@@ -1496,7 +2396,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 644.486
@@ -1516,7 +2416,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398216
@@ -1536,7 +2436,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 7
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.372192 -0.372192
@@ -1576,7 +2476,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -1.8541
@@ -1596,7 +2496,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 435.038
@@ -1636,7 +2536,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -1.95249
@@ -1656,7 +2556,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -1.95249
@@ -1676,7 +2576,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 3116.55
@@ -1696,7 +2596,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 3806.68
@@ -1716,7 +2616,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -1.8541
@@ -1776,7 +2676,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -2016,7 +2916,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.281557
@@ -2036,7 +2936,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -2056,7 +2956,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 4
+		OpenCount = 1
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -2076,7 +2976,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.2994 -0.2994
@@ -2096,7 +2996,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 3
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -2116,7 +3016,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.315076
@@ -2136,7 +3036,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.289602
@@ -2176,7 +3076,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 2
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 51.5349
@@ -2316,7 +3216,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous book view
 		ScrollPos = -1 -0.398202
@@ -2336,7 +3236,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.409857
@@ -2636,7 +3536,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -0.120967 -1
@@ -2656,7 +3556,7 @@ FileStates [
 		]
 		IsPinned = false
 		IsMissing = false
-		OpenCount = 1
+		OpenCount = 0
 		UseDefaultState = false
 		DisplayMode = continuous facing
 		ScrollPos = -1 -0.398202
@@ -4151,26 +5051,6 @@ FileStates [
 		ReparseIdx = 0
 	]
 	[
-		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRS[1].pdf
-		Favorites [
-		]
-		IsPinned = false
-		IsMissing = false
-		OpenCount = 0
-		UseDefaultState = false
-		DisplayMode = continuous facing
-		ScrollPos = -1 -0.398202
-		PageNo = 1
-		Zoom = fit page
-		Rotation = 0
-		WindowState = 2
-		WindowPos = 575 -26 834 1080
-		ShowToc = false
-		SidebarDx = 285
-		DisplayR2L = false
-		ReparseIdx = 0
-	]
-	[
 		FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\MK7RHI1Z\IRS[1].pdf
 		Favorites [
 		]
@@ -4415,22 +5295,85 @@ SessionData [
 	[
 		TabStates [
 			[
-				FilePath = c:\Users\ahm_e\Desktop\temp\template.pdf
+				FilePath = d:\Project_ETAP\00.Docs_best_Practice\Arch_falsh\BestPractice\SABP-P-051.pdf
+				DisplayMode = continuous facing
+				PageNo = 61
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 1022.69
+				ShowToc = false
+			]
+			[
+				FilePath = D:\Project_ETAP\00.Docs_best_Practice\Arch_falsh\BestPractice\SABP-P-041.PDF
+				DisplayMode = automatic
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = 0 0
+				ShowToc = false
+			]
+			[
+				FilePath = d:\Project_ETAP\3.DOB\Report\MainReport\MainReport.pdf
+				DisplayMode = continuous facing
+				PageNo = 5
+				Zoom = 180.139
+				Rotation = 0
+				ScrollPos = 72.6525 183.4
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\TDS-25~1[1].PDF
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = 222.034
+				Rotation = 0
+				ScrollPos = -0.168555 104.883
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\Cable Size Calculation and Voltage Drop Cal[1].pdf
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = 107.042
+				Rotation = 0
+				ScrollPos = 44.4926 107.552
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\General Single Line Diagram-ADOB-02-200-001-V4[1].pdf
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = 202.829
+				Rotation = 0
+				ScrollPos = 352.206 819.224
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRLF Data sheet[1].pdf
 				DisplayMode = continuous facing
 				PageNo = 1
 				Zoom = fit page
 				Rotation = 0
-				ScrollPos = -1 386.632
+				ScrollPos = -1 -0.398202
+				ShowToc = false
+			]
+			[
+				FilePath = C:\Users\ahm_e\AppData\Local\Microsoft\Windows\INetCache\IE\TSIQB9NY\IRS[2].pdf
+				DisplayMode = continuous facing
+				PageNo = 1
+				Zoom = fit page
+				Rotation = 0
+				ScrollPos = -1 -0.409857
 				ShowToc = false
 			]
 		]
-		TabIndex = 1
+		TabIndex = 8
 		WindowState = 2
-		WindowPos = -967 -267 974 1087
+		WindowPos = 610 -22 974 1080
 		SidebarDx = 285
 	]
 ]
 TimeOfLastUpdateCheck = 0 0
-OpenCountWeek = 765
+OpenCountWeek = 767
 
 # Settings below are not recognized by the current version
